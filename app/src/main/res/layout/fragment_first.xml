@@ -4,14 +4,15 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First fragment textview"
+        android:text="Goto 2nd Fragment"
         android:textSize="24sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:id="@+id/goto_second_button"
         app:layout_constraintEnd_toEndOf="parent"
         />
 
